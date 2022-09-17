@@ -1,0 +1,47 @@
+s=[]
+o=[]
+c=[]
+su =0
+while(True):
+    inp = input()
+    if(inp == ""):
+        break
+    else:
+        s.append(inp)
+
+# for x in range(12):
+#     for y in s:
+#         a = int(y[x])
+#         su+=a
+#
+#     if(su>=(len(s)/2)):
+#         s = [z for z in s if z[x] == '1']
+#
+#     else:
+#         s = [z for z in s if z[x] == '0']
+#
+#     su=0
+# print(s)
+
+
+# for x in range(12):
+#     for y in s:
+#         a = int(y[x])
+#         su+=a
+#
+#     if(su>=(len(s)/2)):
+#         s = [z for z in s if z[x] == '0']
+#
+#     else:
+#         s = [z for z in s if z[x] == '1']
+#
+#     su=0
+#     if(len(s)==1):
+#         break
+# print(s)
+
+# d = int('011110111101',2)
+# e = int('110100101011',2)
+# print(d*e)
+
+
