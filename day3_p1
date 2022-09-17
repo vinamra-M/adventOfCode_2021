@@ -1,0 +1,19 @@
+s = []
+g = []
+while(True):
+     t = input()
+     if t == "":
+          break
+     s.append(t)
+
+for x in range(0,12):
+     a = 0
+     for y in range(0,1000):
+          b = int(s[y][x])
+          a+=b
+     if(a > 500):
+          g.append(1)
+     else:
+          g.append(0)
+print(g)
+
