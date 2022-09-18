@@ -1,0 +1,27 @@
+s = []
+ans = 0
+while(True):
+    inp = input().split(" ")
+    if(inp[0] == ""):
+        break
+    else:
+        s.append(inp)
+
+result1 = [item[0] for item in s]
+result2 = [item[1] for item in s]
+result3 = [item[2] for item in s]
+result4 = [item[3] for item in s]
+for x in result1:
+    if(len(x)== 2 or len(x)==4 or len(x)==3 or len(x)==7):
+        ans+=1
+for x in result2:
+    if(len(x)== 2 or len(x)==4 or len(x)==3 or len(x)==7):
+        ans+=1
+for x in result3:
+    if(len(x)== 2 or len(x)==4 or len(x)==3 or len(x)==7):
+        ans+=1
+for x in result4:
+    if(len(x)== 2 or len(x)==4 or len(x)==3 or len(x)==7):
+        ans+=1
+print(ans)
+
