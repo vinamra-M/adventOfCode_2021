@@ -1,0 +1,19 @@
+s =[]
+f=0
+d=0
+a=0
+while(True):
+    inp = list(input().split(" ",1))
+    if(inp[0] ==""):
+        break
+    else:
+        s.append(inp)
+for x in s:
+    if(x[0] == 'forward'):
+        f+=int(x[1])
+        d+=a*int(x[1])
+    elif(x[0] == 'up'):
+        a-=int(x[1])
+    elif(x[0] == 'down'):
+        a+=int(x[1])
+print(f*d)
